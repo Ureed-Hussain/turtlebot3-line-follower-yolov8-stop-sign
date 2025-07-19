@@ -57,7 +57,7 @@ turtlebot3_line_follower/              ← Your workspace root
 ### 1. Clone the repository:
 
 ```bash
-cd ~/turtlebot3_line_follower/src
+cd ~/turtlebot3_line_follower/src/turtlebot3_line_follower/
 https://github.com/Ureed-Hussain/turtlebot3-line-follower-yolov8-stop-sign.git
 cd ~/turtlebot3_line_follower
 colcon build
