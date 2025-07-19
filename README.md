@@ -5,7 +5,10 @@ A ROS 2 Humble package for TurtleBot3 that enables:
 - STOP sign detection using YOLOv8
 - Autonomous rotation and resume behavior
 
-![Turtlebot3-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/08a4907b-9570-4713-8eb1-2cc37f808da3)
+
+
+![Turtlebot3(1)](https://github.com/user-attachments/assets/9edccc80-8bd8-42a0-8250-c656bd06ff87)
+
 
 
 ## 🧠 Features
