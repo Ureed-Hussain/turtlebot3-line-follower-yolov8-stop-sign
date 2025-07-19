@@ -1,0 +1,58 @@
+[0.901s] Invoking command in '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower': PYTHONPATH=/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/build/turtlebot3_line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/turtlebot3_line_follower build --build-base /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/build/turtlebot3_line_follower/build install --record /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/build/turtlebot3_line_follower/install.log --single-version-externally-managed install_data
+[1.210s] running egg_info
+[1.211s] creating build/turtlebot3_line_follower/turtlebot3_line_follower.egg-info
+[1.211s] writing build/turtlebot3_line_follower/turtlebot3_line_follower.egg-info/PKG-INFO
+[1.212s] writing dependency_links to build/turtlebot3_line_follower/turtlebot3_line_follower.egg-info/dependency_links.txt
+[1.212s] writing entry points to build/turtlebot3_line_follower/turtlebot3_line_follower.egg-info/entry_points.txt
+[1.212s] writing requirements to build/turtlebot3_line_follower/turtlebot3_line_follower.egg-info/requires.txt
+[1.212s] writing top-level names to build/turtlebot3_line_follower/turtlebot3_line_follower.egg-info/top_level.txt
+[1.212s] writing manifest file 'build/turtlebot3_line_follower/turtlebot3_line_follower.egg-info/SOURCES.txt'
+[1.214s] reading manifest file 'build/turtlebot3_line_follower/turtlebot3_line_follower.egg-info/SOURCES.txt'
+[1.215s] writing manifest file 'build/turtlebot3_line_follower/turtlebot3_line_follower.egg-info/SOURCES.txt'
+[1.215s] running build
+[1.215s] running build_py
+[1.216s] creating /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/build/turtlebot3_line_follower/build
+[1.216s] creating /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/build/turtlebot3_line_follower/build/lib
+[1.216s] creating /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/build/turtlebot3_line_follower/build/lib/turtlebot3_line_follower
+[1.216s] copying turtlebot3_line_follower/two_line_follower_node.py -> /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/build/turtlebot3_line_follower/build/lib/turtlebot3_line_follower
+[1.216s] copying turtlebot3_line_follower/two_robot_depth.py -> /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/build/turtlebot3_line_follower/build/lib/turtlebot3_line_follower
+[1.216s] copying turtlebot3_line_follower/depth_estimation.py -> /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/build/turtlebot3_line_follower/build/lib/turtlebot3_line_follower
+[1.216s] copying turtlebot3_line_follower/two_robot_camera.py -> /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/build/turtlebot3_line_follower/build/lib/turtlebot3_line_follower
+[1.217s] copying turtlebot3_line_follower/line_follower.py -> /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/build/turtlebot3_line_follower/build/lib/turtlebot3_line_follower
+[1.217s] copying turtlebot3_line_follower/__init__.py -> /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/build/turtlebot3_line_follower/build/lib/turtlebot3_line_follower
+[1.217s] copying turtlebot3_line_follower/yolo_detect.py -> /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/build/turtlebot3_line_follower/build/lib/turtlebot3_line_follower
+[1.217s] running install
+[1.217s] running install_lib
+[1.218s] creating /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/lib/python3.10/site-packages/turtlebot3_line_follower
+[1.219s] copying /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/build/turtlebot3_line_follower/build/lib/turtlebot3_line_follower/two_line_follower_node.py -> /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/lib/python3.10/site-packages/turtlebot3_line_follower
+[1.219s] copying /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/build/turtlebot3_line_follower/build/lib/turtlebot3_line_follower/two_robot_depth.py -> /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/lib/python3.10/site-packages/turtlebot3_line_follower
+[1.219s] copying /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/build/turtlebot3_line_follower/build/lib/turtlebot3_line_follower/depth_estimation.py -> /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/lib/python3.10/site-packages/turtlebot3_line_follower
+[1.219s] copying /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/build/turtlebot3_line_follower/build/lib/turtlebot3_line_follower/two_robot_camera.py -> /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/lib/python3.10/site-packages/turtlebot3_line_follower
+[1.219s] copying /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/build/turtlebot3_line_follower/build/lib/turtlebot3_line_follower/line_follower.py -> /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/lib/python3.10/site-packages/turtlebot3_line_follower
+[1.219s] copying /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/build/turtlebot3_line_follower/build/lib/turtlebot3_line_follower/__init__.py -> /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/lib/python3.10/site-packages/turtlebot3_line_follower
+[1.219s] copying /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/build/turtlebot3_line_follower/build/lib/turtlebot3_line_follower/yolo_detect.py -> /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/lib/python3.10/site-packages/turtlebot3_line_follower
+[1.220s] byte-compiling /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/lib/python3.10/site-packages/turtlebot3_line_follower/two_line_follower_node.py to two_line_follower_node.cpython-310.pyc
+[1.221s] byte-compiling /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/lib/python3.10/site-packages/turtlebot3_line_follower/two_robot_depth.py to two_robot_depth.cpython-310.pyc
+[1.222s] byte-compiling /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/lib/python3.10/site-packages/turtlebot3_line_follower/depth_estimation.py to depth_estimation.cpython-310.pyc
+[1.222s] byte-compiling /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/lib/python3.10/site-packages/turtlebot3_line_follower/two_robot_camera.py to two_robot_camera.cpython-310.pyc
+[1.223s] byte-compiling /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/lib/python3.10/site-packages/turtlebot3_line_follower/line_follower.py to line_follower.cpython-310.pyc
+[1.224s] byte-compiling /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/lib/python3.10/site-packages/turtlebot3_line_follower/__init__.py to __init__.cpython-310.pyc
+[1.224s] byte-compiling /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/lib/python3.10/site-packages/turtlebot3_line_follower/yolo_detect.py to yolo_detect.cpython-310.pyc
+[1.225s] running install_data
+[1.225s] creating /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/share/ament_index
+[1.225s] creating /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/share/ament_index/resource_index
+[1.225s] creating /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/share/ament_index/resource_index/packages
+[1.226s] copying resource/turtlebot3_line_follower -> /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/share/ament_index/resource_index/packages
+[1.226s] creating /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/share/turtlebot3_line_follower/launch
+[1.226s] copying launch/line_follow_world.launch.py -> /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/share/turtlebot3_line_follower/launch
+[1.226s] copying launch/two_robots.launch.py -> /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/share/turtlebot3_line_follower/launch
+[1.226s] creating /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/share/turtlebot3_line_follower/worlds
+[1.226s] copying worlds/line_follow_world.world -> /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/share/turtlebot3_line_follower/worlds
+[1.226s] copying worlds/wall_world.world -> /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/share/turtlebot3_line_follower/worlds
+[1.227s] copying package.xml -> /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/share/turtlebot3_line_follower
+[1.227s] running install_egg_info
+[1.229s] Copying build/turtlebot3_line_follower/turtlebot3_line_follower.egg-info to /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/lib/python3.10/site-packages/turtlebot3_line_follower-0.0.0-py3.10.egg-info
+[1.230s] running install_scripts
+[1.250s] Installing yolo_detect script to /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/lib/turtlebot3_line_follower
+[1.251s] writing list of installed files to '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/build/turtlebot3_line_follower/install.log'
+[1.276s] Invoked command in '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower' returned '0': PYTHONPATH=/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/build/turtlebot3_line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/turtlebot3_line_follower build --build-base /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/build/turtlebot3_line_follower/build install --record /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/build/turtlebot3_line_follower/install.log --single-version-externally-managed install_data

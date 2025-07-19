@@ -1,0 +1,3 @@
+[console_scripts]
+yolo_detect = turtlebot3_line_follower.yolo_detect:main
+

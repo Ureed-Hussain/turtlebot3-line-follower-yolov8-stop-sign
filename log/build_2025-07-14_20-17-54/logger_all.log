@@ -1,0 +1,91 @@
+[0.181s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.181s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b54ddf2ec50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b54ddf2e7a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b54ddf2e7a0>>, mixin_verb=('build',))[0m
+[0.523s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.523s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.523s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.523s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.523s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.523s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.523s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower'
+[0.523s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage '.' with type 'ros.ament_python' and name 'turtlebot3_line_follower'[0m
+[0.539s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.539s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.539s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.539s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.539s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.563s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.564s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.569s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 1 installed packages in /home/uhreed/ros2_urdf/install[0m
+[0.569s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 1 installed packages in /home/uhreed/ros2_ws/install[0m
+[0.571s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 459 installed packages in /opt/ros/humble[0m
+[0.573s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.631s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_line_follower' build argument 'cmake_args' from command line to 'None'
+[0.631s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_line_follower' build argument 'cmake_target' from command line to 'None'
+[0.631s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_line_follower' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.631s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_line_follower' build argument 'cmake_clean_cache' from command line to 'False'
+[0.631s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_line_follower' build argument 'cmake_clean_first' from command line to 'False'
+[0.631s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_line_follower' build argument 'cmake_force_configure' from command line to 'False'
+[0.632s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_line_follower' build argument 'ament_cmake_args' from command line to 'None'
+[0.632s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_line_follower' build argument 'catkin_cmake_args' from command line to 'None'
+[0.632s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_line_follower' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.632s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'turtlebot3_line_follower' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/build/turtlebot3_line_follower', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower', 'merge_install': False, 'path': '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower', 'symlink_install': False, 'test_result_base': None}[0m
+[0.632s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.633s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.633s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower' with build type 'ament_python'
+[0.633s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('turtlebot3_line_follower', 'ament_prefix_path')
+[0.637s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.637s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/share/turtlebot3_line_follower/hook/ament_prefix_path.ps1'
+[0.638s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/share/turtlebot3_line_follower/hook/ament_prefix_path.dsv'
+[0.639s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/share/turtlebot3_line_follower/hook/ament_prefix_path.sh'
+[0.640s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.640s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.007s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower'
+[1.007s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.007s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.535s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower': PYTHONPATH=/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/build/turtlebot3_line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/turtlebot3_line_follower build --build-base /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/build/turtlebot3_line_follower/build install --record /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/build/turtlebot3_line_follower/install.log --single-version-externally-managed install_data[0m
+[1.909s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower' returned '0': PYTHONPATH=/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/build/turtlebot3_line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/turtlebot3_line_follower build --build-base /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/build/turtlebot3_line_follower/build install --record /home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/build/turtlebot3_line_follower/install.log --single-version-externally-managed install_data[0m
+[1.913s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower' for CMake module files
+[1.914s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower' for CMake config files
+[1.914s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/lib'
+[1.915s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/bin'
+[1.915s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/lib/pkgconfig/turtlebot3_line_follower.pc'
+[1.915s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/lib/python3.10/site-packages'
+[1.915s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('turtlebot3_line_follower', 'pythonpath')
+[1.915s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/share/turtlebot3_line_follower/hook/pythonpath.ps1'
+[1.916s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/share/turtlebot3_line_follower/hook/pythonpath.dsv'
+[1.916s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/share/turtlebot3_line_follower/hook/pythonpath.sh'
+[1.917s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/bin'
+[1.917s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(turtlebot3_line_follower)
+[1.917s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/share/turtlebot3_line_follower/package.ps1'
+[1.918s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/share/turtlebot3_line_follower/package.dsv'
+[1.919s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/share/turtlebot3_line_follower/package.sh'
+[1.919s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/share/turtlebot3_line_follower/package.bash'
+[1.920s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/share/turtlebot3_line_follower/package.zsh'
+[1.921s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/turtlebot3_line_follower/share/colcon-core/packages/turtlebot3_line_follower)
+[1.922s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[1.922s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[1.922s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[1.922s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[1.929s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.929s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.929s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[1.949s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[1.950s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/local_setup.ps1'
+[1.951s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/_local_setup_util_ps1.py'
+[1.953s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/setup.ps1'
+[1.955s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/local_setup.sh'
+[1.956s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/_local_setup_util_sh.py'
+[1.957s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/setup.sh'
+[1.960s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/local_setup.bash'
+[1.962s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/setup.bash'
+[1.963s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/local_setup.zsh'
+[1.964s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/uhreed/turtlebot3_line_follower/src/turtlebot3_line_follower/install/setup.zsh'
