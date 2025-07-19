@@ -16,7 +16,7 @@ A ROS 2 Humble package for TurtleBot3 that enables:
 - Launch files for single and multi-robot simulation
 
 ## 📂 Package Structure
-
+```
 turtlebot3_line_follower/              ← Your workspace root
 ├── src/
 │   └── turtlebot3_line_follower/      ← Your ROS 2 package
@@ -44,7 +44,7 @@ turtlebot3_line_follower/              ← Your workspace root
 │       ├── install/                   ← (ignored) install dir
 │       └── log/                       ← (ignored) logs
 
-
+```
 
 ## 🚀 How to Run
 
